@@ -1,0 +1,88 @@
+2021-02-02 05:28:00.956  WARN 7784 --- [AMQP Connection 127.0.0.1:5672] c.r.c.impl.ForgivingExceptionHandler     : An unexpected connection driver error occured (Exception message: Connection reset)
+2021-02-02 05:28:01.923 ERROR 7784 --- [AMQP Connection 127.0.0.1:5672] o.s.a.r.c.CachingConnectionFactory       : Channel shutdown: connection error
+2021-02-02 05:28:02.071  INFO 7784 --- [springCloudBus.anonymous.ddc2z-3lQxiowJ-rCIqR2w-1] o.s.a.r.l.SimpleMessageListenerContainer : Restarting Consumer@6b88b860: tags=[[amq.ctag-SgNKtjp_xlNCRd1u7aS7IA]], channel=Cached Rabbit Channel: AMQChannel(amqp://guest@127.0.0.1:5672/,1), conn: Proxy@4ed404e2 Shared Rabbit Connection: SimpleConnection@11b42629 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57759], acknowledgeMode=AUTO local queue size=0
+2021-02-02 05:28:02.120  INFO 7784 --- [springCloudBus.anonymous.ddc2z-3lQxiowJ-rCIqR2w-2] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2021-02-02 05:28:02.247  INFO 7784 --- [springCloudBus.anonymous.ddc2z-3lQxiowJ-rCIqR2w-2] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#4a48070e:1/SimpleConnection@770f04b7 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54107]
+2021-02-02 05:28:02.379  INFO 7784 --- [springCloudBus.anonymous.ddc2z-3lQxiowJ-rCIqR2w-2] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (springCloudBus.anonymous.ddc2z-3lQxiowJ-rCIqR2w) durable:false, auto-delete:true, exclusive:true. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-02-02 05:30:33.047  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 05:35:33.063  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 05:40:33.093  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 05:45:33.104  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 05:50:33.116  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 05:55:33.139  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 06:00:33.152  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 06:05:33.169  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 06:10:33.172  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 06:15:33.175  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 06:20:33.179  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 06:25:33.187  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 06:30:33.197  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 06:35:33.206  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 06:40:33.219  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 06:45:33.229  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 06:50:33.233  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 06:55:33.236  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 07:00:33.244  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 07:05:33.262  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 07:10:33.276  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 07:15:33.284  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 07:20:33.300  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 07:25:33.311  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 07:30:33.318  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 07:35:33.331  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 07:40:33.343  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 07:45:33.353  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 07:50:33.363  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 07:55:33.381  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 08:00:33.389  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 08:05:33.400  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 08:10:33.403  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 08:15:33.410  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 08:20:33.414  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 08:25:33.425  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 08:30:33.441  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 08:35:33.448  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 08:40:33.457  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 08:45:33.460  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 08:50:33.476  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 08:55:33.486  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 09:52:29.112  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 09:57:29.116  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 10:02:29.118  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 10:07:29.125  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 10:12:29.129  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 10:17:29.136  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 10:22:29.163  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 10:27:29.173  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 10:32:29.192  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 10:37:29.197  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 10:42:29.207  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 10:47:29.222  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 10:52:29.238  INFO 7784 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2021-02-02 10:54:22.250  INFO 7784 --- [RMI TCP Connection(687)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-02-02 10:54:22.537  INFO 7784 --- [RMI TCP Connection(687)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application ALBUMS-MICROSERVICE with eureka with status DOWN
+2021-02-02 10:54:22.545 ERROR 7784 --- [RMI TCP Connection(687)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1612243462541, current=DOWN, previous=UP]
+2021-02-02 10:54:22.554  INFO 7784 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ALBUMS-MICROSERVICE/albums-microservice:6428b65431e76e86a0d9267f04825f25: registering service...
+2021-02-02 10:54:22.663  INFO 7784 --- [DiscoveryClient-InstanceInfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ALBUMS-MICROSERVICE/albums-microservice:6428b65431e76e86a0d9267f04825f25 - registration status: 204
+2021-02-02 10:54:24.281  INFO 7784 --- [RMI TCP Connection(687)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-02-02 10:54:24.339  INFO 7784 --- [RMI TCP Connection(687)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2021-02-02 10:54:24.648  INFO 7784 --- [RMI TCP Connection(687)-127.0.0.1] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2021-02-02 10:54:24.674  INFO 7784 --- [RMI TCP Connection(687)-127.0.0.1] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2021-02-02 10:54:24.678  INFO 7784 --- [RMI TCP Connection(687)-127.0.0.1] o.s.i.a.i.AmqpInboundChannelAdapter      : stopped bean 'inbound.springCloudBus.anonymous.ddc2z-3lQxiowJ-rCIqR2w'
+2021-02-02 10:54:24.754  INFO 7784 --- [RMI TCP Connection(687)-127.0.0.1] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.ddc2z-3lQxiowJ-rCIqR2w.errors' has 1 subscriber(s).
+2021-02-02 10:54:24.760  INFO 7784 --- [RMI TCP Connection(687)-127.0.0.1] o.s.c.stream.binder.BinderErrorChannel   : Channel 'application-1.springCloudBus.anonymous.ddc2z-3lQxiowJ-rCIqR2w.errors' has 0 subscriber(s).
+2021-02-02 10:54:24.800  INFO 7784 --- [RMI TCP Connection(687)-127.0.0.1] o.s.i.endpoint.EventDrivenConsumer       : Removing {logging-channel-adapter:_org.springframework.integration.errorLogger} as a subscriber to the 'errorChannel' channel
+2021-02-02 10:54:24.800  INFO 7784 --- [RMI TCP Connection(687)-127.0.0.1] o.s.i.channel.PublishSubscribeChannel    : Channel 'application-1.errorChannel' has 0 subscriber(s).
+2021-02-02 10:54:24.801  INFO 7784 --- [RMI TCP Connection(687)-127.0.0.1] o.s.i.endpoint.EventDrivenConsumer       : stopped bean '_org.springframework.integration.errorLogger'
+2021-02-02 10:54:24.874  INFO 7784 --- [RMI TCP Connection(687)-127.0.0.1] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2021-02-02 10:54:24.902  INFO 7784 --- [RMI TCP Connection(687)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-02-02 10:54:24.962  INFO 7784 --- [RMI TCP Connection(687)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean 'springCloudBusInput'
+2021-02-02 10:54:24.963  INFO 7784 --- [RMI TCP Connection(687)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: nullChannel
+2021-02-02 10:54:24.963  INFO 7784 --- [RMI TCP Connection(687)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean 'errorChannel'
+2021-02-02 10:54:24.963  INFO 7784 --- [RMI TCP Connection(687)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean 'springCloudBusOutput'
+2021-02-02 10:54:24.963  INFO 7784 --- [RMI TCP Connection(687)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: bean '_org.springframework.integration.errorLogger.handler' for component '_org.springframework.integration.errorLogger'
+2021-02-02 10:54:24.963  INFO 7784 --- [RMI TCP Connection(687)-127.0.0.1] o.s.i.monitor.IntegrationMBeanExporter   : Summary on shutdown: org.springframework.cloud.stream.binding.StreamListenerMessageHandler@58ccb2f
+2021-02-02 10:54:24.968  INFO 7784 --- [RMI TCP Connection(687)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2021-02-02 10:54:27.984  INFO 7784 --- [RMI TCP Connection(687)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Unregistering ...
+2021-02-02 10:54:28.023  INFO 7784 --- [RMI TCP Connection(687)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_ALBUMS-MICROSERVICE/albums-microservice:6428b65431e76e86a0d9267f04825f25 - deregister  status: 200
+2021-02-02 10:54:28.156  INFO 7784 --- [RMI TCP Connection(687)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Completed shut down of DiscoveryClient
